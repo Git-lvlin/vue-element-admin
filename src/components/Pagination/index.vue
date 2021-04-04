@@ -1,4 +1,5 @@
 <template>
+<!-- 自定义分页组件 -->
   <div :class="{'hidden':hidden}" class="pagination-container">
     <el-pagination
       :background="background"
@@ -35,7 +36,7 @@ export default {
     pageSizes: {
       type: Array,
       default() {
-        return [10, 20, 30, 50]
+        return [2, 4, 6, 8]
       }
     },
     layout: {

@@ -70,7 +70,7 @@ module.exports = [
     }
   },
 
-  // user logout
+  // 退出登录
   {
     url: '/vue-element-admin/user/logout',
     type: 'post',

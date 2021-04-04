@@ -14,9 +14,9 @@ export function isExternal(path) {
  * @param {string} str
  * @returns {Boolean}
  */
-export function validUsername(str) {
-  const valid_map = ['admin', 'editor']
-  return valid_map.indexOf(str.trim()) >= 0
+export function validUsername(str) {//用户权限管理
+  // const valid_map = ['admin', 'shop']
+  return true
 }
 
 /**
